@@ -1,4 +1,4 @@
-/*body {
+body {
   width: 700px;
   margin: 0 auto;
   background-image: url(dc-online-media-mockup.jpg);
@@ -7,20 +7,45 @@
   background-repeat: no-repeat;
   font-family: 'PT Sans', sans-serif;
 }
+
 h1 {
-  margin-top: 60px;
-  font-size: 45px;
-  font-weight: 800;
+  margin-top: 66px;
+  font-size: 40px;
+  line-height: 46px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: rgba(0, 0, 0, 1);
 }
 
 h2 {
-
-}
-
-h2 + p {
-
+  margin-top: 40px;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: rgba(0, 0, 0, 1);
 }
 
 p {
+  margin-top: 30px;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 1);
+}
 
+h1 + p {
+  margin: 0;
+  font-size: 22px;
+  line-height: 32px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h1 + p > a {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h2 + p {
+  margin-top: 10px;
+  font-size: 22px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1);
 }
