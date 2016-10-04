@@ -1,0 +1,18 @@
+nav {
+  width: 300px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 30px;
+  font-size: 16px;
+  box-sizing: border-box;
+
+  border: 1px solid black;
+}
+nav ul li {
+  margin-bottom: 20px;
+}
+nav ul li ul li {
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
