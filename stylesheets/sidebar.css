@@ -1,0 +1,9 @@
+nav {
+  background: green;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 30px;
+}
