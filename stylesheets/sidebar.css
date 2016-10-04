@@ -5,12 +5,25 @@ nav {
   left: 20px;
   padding: 30px;
   font-size: 16px;
+  line-height: 16px;
+  opacity: .5;
   box-sizing: border-box;
 
-  border: 1px solid black;
+}
+nav:hover {
+  opacity: 1;
+}
+nav ul li ul li a:hover {
+  text-decoration: underline;
+}
+nav > ul > li:first-child {
+  font-weight: bold;
 }
 nav ul li {
   margin-bottom: 20px;
+}
+nav ul li ul li:first-child {
+  padding-top: 20px;
 }
 nav ul li ul li {
   padding-left: 10px;
