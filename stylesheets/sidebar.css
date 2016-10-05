@@ -1,0 +1,19 @@
+nav {
+  background: green;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 30px;
+}
+
+nav li {
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, .8);
+}
+
+nav > ul > li:first-child {
+  font-weight:  bold;
+}
