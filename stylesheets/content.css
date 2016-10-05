@@ -33,7 +33,7 @@ article h1 + p {
   color: rgba(0, 0, 0, .5);
 }
 
-article article h2 {
+article h2 {
   margin-top: 43px;
   font-size: 32px;
   line-height: 36px;
