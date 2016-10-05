@@ -3,29 +3,52 @@ nav {
   position: fixed;
   top: 20px;
   left: 20px;
-  padding: 30px;
-  font-size: 16px;
-  line-height: 16px;
-  opacity: .5;
   box-sizing: border-box;
-
+  transition: all .1s ease-out;
 }
-nav:hover {
+
+nav > ul {
+  position: absolute;
+  padding: 15px 30px;
+}
+nav li {
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgb(0, 0, 0, .8);
+  opacity: .5;
+}
+nav li:hover {
   opacity: 1;
 }
-nav ul li ul li a:hover {
-  text-decoration: underline;
+
+
+nav > ul > li:hover {
+  color: rgba(0, 0, 0, 1);
 }
 nav > ul > li:first-child {
+  margin-top: 10px;
   font-weight: bold;
 }
-nav ul li {
-  margin-bottom: 20px;
-}
-nav ul li ul li:first-child {
-  padding-top: 20px;
-}
-nav ul li ul li {
+
+
+nav > ul > li > ul {
   padding-left: 10px;
+}
+nav > ul > li > ul > li {
   color: rgba(0, 0, 0, 0.5);
+}
+
+nav > ul > li > ul li {
+  color: rgb(0, 0, 0, .4);
+}
+
+nav > ul > li > ul li:hover {
+  color: rgb(0, 0, 0, .6);
+}
+
+
+
+nav a:hover {
+  border-bottom: 1px solid;
 }
