@@ -10,3 +10,7 @@ $(function() {
     });
   });
 });
+<<<<<<< Updated upstream
+=======
+Contact GitHub API Training Shop Blog About
+>>>>>>> Stashed changes

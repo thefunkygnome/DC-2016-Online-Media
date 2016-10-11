@@ -1,46 +1,48 @@
+
 nav {
-  background: green;
+  /*background: green;*/
   position: fixed;
   top: 20px;
   left: 20px;
   box-sizing: border-box;
   width: 300px;
   opacity: .1;
-}
-
-nav:hover {
-  opacity: 1;
-}
-
-nav > ul {
-  position: absolute;
-  padding: 15px 30px;
+  transition: all .5s ease-out;
 }
 
 nav li {
   margin: 12px 0;
   font-size: 14px;
   line-height: 15px;
-  color: rgba(0, 0, 0, .8);
+  color: rgba(0,0,0,.8);
 }
 
 nav > ul > li:hover {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0,0,0,1)
+}
+
+nav > ul {
+  position: absolute;
+  padding: 13px 30px 15px;
 }
 
 nav > ul > li:first-child{
-  margin-top: 10px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
-nav > ul > li > ul{
-   padding-left: 10px;
+nav > ul > li > ul {
+  padding-left: 10px;
 }
 
-nav > ul > li > ul li{
-  color: rgba(0, 0, 0, .4);
+nav:hover {
+  opacity: 1;
+}
+
+nav > ul > li > ul li {
+  color: rgba(0,0,0,.4);
 }
 
 nav > ul > li > ul li:hover {
-  color: rgba(0, 0, 0, .6);
+  color: rgba(0,0,0,.6);
 }
