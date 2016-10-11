@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Flow, Display and Positioning</title>
+
+    <style media="screen">
+      div {
+        background-color: red;
+      }
+
+      span {
+        background-color: green;
+      }
+
+      .inlineBlock {
+        display: inline-block;
+        background-color: purple;
+      }
+
+      div:first-of-type,
+      span:first-of-type,
+      #customWidth {
+        width: 100px;
+      }
+
+      #button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 20px;
+        height: 20px;
+        color: white;
+        text-align: center;
+        line-height: 20px;
+      }
+
+      section {
+        position: relative;
+        background-color: yellow;
+        width: 100%;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+
+
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+
+    <div class="inlineBlock" id="customWidth">1</div>
+    <div class="inlineBlock">2</div>
+    <div class="inlineBlock">3</div>
+    <div class="inlineBlock">4</div>
+
+    <section>
+      <div class="inlineBlock" id="button">+</div>
+    </section>
+  </body>
+</html>
