@@ -1,4 +1,3 @@
-
 article a {
   text-decoration: underline;
 }
@@ -10,24 +9,8 @@ article p,
 article ul,
 article blockquote {
   width: 700px;
-  margin: 0 auto;;
+  margin: 0 auto;
 }
-
-
-/*  Хак для верстки  */
-
-article h1,
-article h2,
-article h3,
-article h1 + p {
-  letter-spacing: -0.02px;
-}
-
-article p {
-  /*letter-spacing: -0.06px;*/
-}
-
-/*  Конец хака  */
 
 article h1,
 article h2,
@@ -37,9 +20,9 @@ article h3 {
 }
 
 article h1 {
+  margin-top: 66px;
   font-size: 40px;
   line-height: 46px;
-  margin-top: 66px;
 }
 
 article h1 + p {
@@ -49,8 +32,6 @@ article h1 + p {
   line-height: 32px;
   color: rgba(0, 0, 0, .4);
 }
-
-
 
 article h2 {
   margin-top: 43px;
@@ -62,29 +43,14 @@ article h2 + p {
   margin-top: 7px;
 }
 
-article h3 {
+article h3{
   margin-top: 36px;
   font-size: 28px;
   line-height: 34px;
 }
 
-article h3 + p {
-  line-height: 34px;
+article h3 + p{
   margin-top: 6px;
-}
-
-article p {
-  font-size: 22px;
-  /*line-height: 34px;*/
-  line-height: 34px;
-}
-
-article p + p,
-article p + blockquote,
-article blockquote + p,
-article blockquote + blockquote {
-  /*margin-top: 30px;*/
-  margin-top: 29px;
 }
 
 article p,
@@ -94,20 +60,27 @@ article li {
   line-height: 34px;
 }
 
-article blockquote {
-  font-style: italic;
+article blockquote{
   position: relative;
+  font-style: italic;
 }
 
 article blockquote::before {
   content: '';
-  width: 3px;
   display: block;
   position: absolute;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .8);
   top: 0;
   left: -20px;
+  width: 3px;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+}
+
+article p + p,
+article p + blockquote,
+article blockquote + p,
+article blockquote + blockquote {
+  margin-top: 29px;
 }
 
 article ul {
@@ -120,7 +93,6 @@ article li {
 }
 
 
-
 article img {
   display: block;
   width: 1020px;
@@ -131,14 +103,14 @@ article img + h2 {
   margin-top: -1px;
 }
 
-article h2 + img {
-  margin-top: 82px;
-}
-
 article img + p,
 article img + blockquote,
 article img + ul {
   margin-top: -3px;
+}
+
+article h2 + img {
+  margin-top: 82px;
 }
 
 article h3 + img {
