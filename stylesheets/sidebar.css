@@ -1,46 +1,45 @@
-nav {
+.sidebar {
   position: fixed;
   top: 20px;
   left: 20px;
-  box-sizing: border-box;
   width: 300px;
   opacity: 0.1;
   transition: all 0.2s ease-out;
 }
 
-nav li {
+.sidebar li {
   margin: 12px 0;
   font-size: 14px;
   line-height: 15px;
   color: rgba(0, 0, 0, 0.8);
   opacity: .8;
 }
-nav > ul > li:hover {
+.sidebar > ul > li:hover {
   color: rgba(0, 0, 0, 1);
 }
 
-nav:hover {
+.sidebar:hover {
   opacity: 1;
 }
 
- nav > ul {
+ .sidebar > ul {
   position: absolute;
   padding: 15px 30px;
  }
 
-nav > ul > li > ul {
+.sidebar > ul > li > ul {
   padding-left: 10px;
 }
 
-nav > ul > li:first-child {
+.sidebar > ul > li:first-child {
   font-weight: bold;
   margin-top: 10px;
 }
 
-nav > ul > li > ul li {
+.sidebar > ul > li > ul li {
   color: rgba(0, 0, 0, 0.4);
 }
 
-nav > ul > li > ul li:hover{
+.sidebar > ul > li > ul li:hover{
   color: rgba(0, 0, 0, 0.6);
 }
