@@ -12,3 +12,14 @@
   height: 16px;
   background-image: url(../images/wikimedium_logo.svg);
 }
+
+.proekt {
+  margin-top: 8px;
+  font-size: 15px;
+  color: rgba(0,0,0,.2);
+  transition: all .3s ease-out;
+}
+
+.proekt:hover {
+  color: rgba(0,0,0,.4);
+}
