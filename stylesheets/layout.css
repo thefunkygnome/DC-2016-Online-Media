@@ -3,9 +3,10 @@
 }
 
 body {
+  min-width: 768px;
+  font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'PT Sans', sans-serif;
 }
 
  a {
