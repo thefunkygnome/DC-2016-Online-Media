@@ -3,6 +3,7 @@
 }
 
 body {
+  min-width: 768px;
   font-family: 'PT Sans', sans-serif;;
   /*background-image: url(dc-online-media-mockup.jpg);
   background-size: 800px 20624px;
