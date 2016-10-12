@@ -2,13 +2,8 @@ article a {
   text-decoration: underline;
 }
 
-article h1,
-article h2,
-article h3,
-article p,
-article ul,
-article blockquote {
-  width: 700px;
+article > * {
+  width: 728px;
   margin: 0 auto;
 }
 
@@ -20,7 +15,7 @@ article h3 {
 }
 
 article h1 {
-  margin-top: 66px;
+  margin-top: 16px;
   font-size: 40px;
   line-height: 46px;
 }
