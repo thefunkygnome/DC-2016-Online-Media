@@ -1,0 +1,15 @@
+.chevron {
+  transform: rotate(45deg);
+}
+.chevron div {
+  background-color: black;
+}
+.chevron div:first-child {
+  width: 5px;
+  height: 25px;
+}
+
+.chevron div:last-child {
+  width: 30px;
+  height: 5px;
+}
