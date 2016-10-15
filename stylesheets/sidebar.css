@@ -1,7 +1,7 @@
-nav{
+.sidebar {
   background: green;
   position: fixed;
-  top: 20px;
+  top: 46px;
   left: 20px;
   box-sizing: border-box;
   width: 300px;
@@ -9,16 +9,16 @@ nav{
   transition: all .3s ease-out;
 }
 
-nav > ul {
+.sidebar > ul {
   position: absolute;
   padding: 13px 30px 15px;
 }
 
-nav:hover {
+.sidebar:hover {
   opacity: 1;
 }
 
-nav li {
+.sidebar li {
   margin: 12px 0;
   font-size: 14px;
   line-height: 15px;
@@ -26,19 +26,19 @@ nav li {
   opacity: .8;
 }
 
-nav > ul > li:hover {
+.sidebar > ul > li:hover {
   color: rgba(0,0,0,1)
 }
 
-nav > ul > li:first-child {
+.sidebar > ul > li:first-child {
   font-weight: bold;
   margin-top: 10px;
 }
 
-nav > ul > li > ul {
+.sidebar > ul > li > ul {
   padding-left: 10px;
 }
 
-nav > ul > li > ul li:hover {
+.sidebar > ul > li > ul li:hover {
   color: rgba(0,0,0,.6);
 }
