@@ -1,3 +1,19 @@
+.gallery {
+  display: flex;
+  overflow: hidden;
+}
+
+.gallery img {
+  width: 1020px;
+}
+
+.gallery figure {
+  width: 100%;
+}
+
+
+/* Chevron */
+
 .chevron {
   transform: rotate(45deg);
 }
