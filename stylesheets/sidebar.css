@@ -5,6 +5,7 @@
   width: 300px;
   opacity: .1;
   transition: all .1s easy-out;
+  z-index: 1;
 }
 
 .sidebar:hover {
