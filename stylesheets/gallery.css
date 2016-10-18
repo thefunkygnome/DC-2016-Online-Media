@@ -1,0 +1,43 @@
+gallery {
+  display: flex;
+  overflow: hidden;
+}
+
+.galleryRail img {
+  display: block;
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.galleryRail figure {
+  width: 100%;
+  min-width: 100%;
+
+}
+.gallaryRail figure:nth-child(odd){
+  background: grey;
+}
+
+.galleryRail figure:nth-child(even){
+  background: lightgrey;
+}
+
+/* Chevron */
+
+.chevron {
+  transform: rotate(45deg);
+}
+
+.chevron div {
+  background: black;
+}
+
+.chevron div:first-child {
+  width: 5px;
+  height: 25px;
+}
+
+.chevron div:last-child {
+  width: 30px;
+  height: 5px;
+}
