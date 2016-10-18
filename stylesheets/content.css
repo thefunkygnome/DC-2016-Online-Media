@@ -2,7 +2,7 @@ article a {
   text-decoration: underline;
 }
 
-article > * {
+article > *:not(section) {
   width: 728px;
   margin: 0 auto;
 }
@@ -102,7 +102,7 @@ article a {
   color: inherit;
 }
 
-article img {
+article > img {
   display: block;
   width: 1020px;
   margin: 80px auto;
