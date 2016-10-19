@@ -103,7 +103,7 @@ article li {
   margin-bottom: 40px 0px;
 }
 
-article img {
+article > img {
   display: block;
   width: 1020px;
   margin: 80px auto;
