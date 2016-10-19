@@ -4,9 +4,24 @@
   }
 }
 
+@media screen and (max-width: 1080px) {
+  .galleryNav div::before,
+  .galleryNav div::after {
+    background: white;
+  }
+}
+
 @media screen and (max-width: 1020px) {
-  article img {
+  article > img,
+  .galleryRail img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .galleryRail figure {
+    width: 768px;
+    min-width: 768px;
   }
 }
 
@@ -15,8 +30,13 @@
     min-width: 320px;
   }
 
-  article > * {
+  article > *:not(section) {
     width: calc(100% - 40px);
+  }
+
+  .galleryRail figure {
+    width: 100%;
+    min-width: 100%;
   }
 }
 
