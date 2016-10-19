@@ -6,7 +6,7 @@ article a {
   text-decoration: underline;
 }
 
-article > * {
+article > *:not(section) {
   width: 728px;
   margin: 0 auto;
 }
