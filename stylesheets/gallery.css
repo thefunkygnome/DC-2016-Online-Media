@@ -1,6 +1,11 @@
-gallery {
-  display: flex;
+.gallery {
+  position: relative;
   overflow: hidden;
+}
+
+.galleryRail {
+  display: flex;
+  transition: all .3s ease;
 }
 
 .galleryRail img {
@@ -10,34 +15,62 @@ gallery {
 }
 
 .galleryRail figure {
+  width: 100vw;
+  min-width: 100vw;
+}
+
+.gallery figcaption {
+  height: 51px;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(0, 0, 0, .4);
+}
+
+.galleryNav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  min-width: 100%;
-
-}
-.gallaryRail figure:nth-child(odd){
-  background: grey;
+  height: calc(100% - 51px);
 }
 
-.galleryRail figure:nth-child(even){
-  background: lightgrey;
+.galleryNav div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+  cursor: pointer;
+  z-index: 1;
 }
 
-/* Chevron */
-
-.chevron {
-  transform: rotate(45deg);
+.galleryNav .disabled {
+  opacity: 0;
+  cursor: default;
 }
 
-.chevron div {
+.galleryNav div::before,
+.galleryNav div::after {
+  content: '';
+  position: absolute;
   background: black;
 }
 
-.chevron div:first-child {
+.galleryNav div::before {
   width: 5px;
-  height: 25px;
+  height: 20px;
 }
 
-.chevron div:last-child {
-  width: 30px;
+.galleryNav div::after {
+  width: 20px;
   height: 5px;
+}
+
+#prev {
+  transform: rotate(-45deg);
+}
+
+#next {
+  transform: rotate(135deg);
 }

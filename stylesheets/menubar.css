@@ -1,5 +1,5 @@
-.menubar{
-  display: flex;
+.menubar {
+  display:flex;
   justify-content: space-between;
   align-items: center;
   height: 50px;
@@ -11,4 +11,15 @@
   width: 180px;
   height: 16px;
   background-image: url(../images/wikimedium_logo.svg);
+}
+
+.about {
+  margin-top: 8px;
+  font-size: 15px;
+  color: rgba(0,0,0,.2);
+  transition: all .3s ease-out;
+}
+
+.about:hover {
+  color: rgba(0,0,0,.4);
 }

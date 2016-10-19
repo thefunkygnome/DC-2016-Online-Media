@@ -7,6 +7,21 @@ article > *:not(section) {
   margin: 0 auto;
 }
 
+/*  Хак для вёрстки  */
+
+/*h1,
+h2,
+h3,
+h1 + p {
+  letter-spacing: -0.08px;
+}*/
+
+article p {
+  letter-spacing: -0.08px;
+}
+
+/*  Конец хака  */
+
 article h1,
 article h2,
 article h3 {
@@ -25,7 +40,7 @@ article h1 + p {
   font-family: 'PT Sans Caption', sans-serif;
   font-size: 22px;
   line-height: 32px;
-  color: rgba(0, 0, 0, .4);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 article h2 {
@@ -39,13 +54,13 @@ article h2 + p {
 }
 
 article h3 {
-  margin-top: 36px;
+  margin-top: 35px;
   font-size: 28px;
-  line-height: 34px;
+  line-height: 36px;
 }
 
 article h3 + p {
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
 article p,
@@ -56,8 +71,8 @@ article li {
 }
 
 article blockquote {
-  position: relative;
   font-style: italic;
+  position: relative;
 }
 
 article blockquote::before {
@@ -68,8 +83,7 @@ article blockquote::before {
   left: -20px;
   width: 3px;
   height: 100%;
-  background-color: rgba(0,0,0,.8);
-
+  background-color: rgba(0, 0, 0, .8);
 }
 
 article p + p,
@@ -80,13 +94,13 @@ article blockquote + blockquote {
 }
 
 article ul {
-
   margin: 29px auto;
   list-style-type: disc;
 }
 
 article li {
-  margin: 17px 0 17px 30px;
+  margin-left: 30px;
+  margin-bottom: 40px 0px;
 }
 
 article > img {
@@ -95,14 +109,14 @@ article > img {
   margin: 80px auto;
 }
 
-article img + h2 {
-  margin-top: -1px;
-}
-
 article img + p,
 article img + blockquote,
 article img + ul {
   margin-top: -3px;
+}
+
+article img + h2 {
+  margin-top: -1px;
 }
 
 article h2 + img {
