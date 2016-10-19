@@ -3,7 +3,7 @@
 }
 
 body {
-  min-width: 760px;
+  min-width: 768px;
   font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

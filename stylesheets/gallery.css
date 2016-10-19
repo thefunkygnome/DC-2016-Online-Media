@@ -52,7 +52,7 @@
 }
 
 .galleryNav div::before,
-.galleryNav div::after{
+.galleryNav div::after {
   content: '';
   background: black;
   position: absolute;

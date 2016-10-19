@@ -87,7 +87,7 @@ article li {
   margin: 17px 0 17px 30px;
 }
 
-article img {
+article > img {
   width: 1020px;
   margin: 80px auto;
   display: block;
