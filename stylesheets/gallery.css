@@ -1,12 +1,13 @@
 .gallery {
   position: relative;
   overflow: hidden;
-
 }
+
 .galleryRail {
   display: flex;
   transition: all .3s ease;
 }
+
 .galleryRail img {
   width: 1020px;
   margin: 0 auto;
@@ -33,7 +34,6 @@
   position: absolute;
   width: 100%;
   height: calc(100% - 51px);
-
 }
 
 .galleryNav div {
@@ -44,6 +44,7 @@
   cursor: pointer;
   z-index: 1;
 }
+
 .galleryNav .disabled {
   opacity: 0;
   cursor: default;
