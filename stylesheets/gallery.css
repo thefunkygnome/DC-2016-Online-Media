@@ -15,8 +15,8 @@
 }
 
 .galleryRail figure {
-  width: 100VW;
-  min-width: 100VW;
+  width: 100vw;
+  min-width: 100vw;
 }
 
 .gallery figcaption {
@@ -24,7 +24,7 @@
   font-size: 14px;
   line-height: 50px;
   text-align: center;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0,0,0,.4);
 }
 
 .galleryNav {
