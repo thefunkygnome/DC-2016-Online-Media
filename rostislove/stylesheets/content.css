@@ -1,0 +1,126 @@
+article a {
+  text-decoration: underline;
+}
+article > *:not(section) {
+  width: 728px;
+  margin: 0 auto;
+}
+article h1,
+article h2,
+article h3, {
+  font-family: 'PT Sans Caption', sans-serif;
+  color: rgba(0, 0, 0, 1);
+}
+
+article h1 {
+  margin-top: 16px;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+}
+
+article h1 + p {
+  margin-top: 0;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+article h1 + p > a {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+article h2 {
+  margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: -0.1px;
+}
+
+article h2 + p {
+  margin-top: 7px;
+  letter-spacing: -0.1px;
+}
+
+article h3 {
+  margin-top: 32px;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+article p {
+  margin-top: 6px;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+article p + p {
+  margin-top: 29px;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0px;
+}
+article p,
+article blockquote,
+article li {
+  font-size: 22px;
+  line-height: 34px;
+}
+article blockquote {
+  position: relative;
+  margin: 25px auto;
+  font-style: italic;
+}
+article blockquote::before {
+  position: absolute;
+  left: -20px;
+  content: "";
+  display: block;
+  width: 3px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+article ul {
+  list-style-type: disc;
+  margin: 25px auto;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+article li {
+  margin-left: 30px;
+  margin-bottom: 40px 0px;
+}
+article li + li {
+  margin-top: 26px;
+  line-height: 33px;
+  letter-spacing: 0px;
+}
+
+article > img {
+  display: block;
+  width: 1020px;
+  margin: 80px auto;
+}
+
+article img + h2 {
+  margin-top: -1px;
+}
+article img + p,
+article img + blockquote,
+article img + ul {
+  margin-top: -3px;
+}
+article h2 + img {
+  margin-top: 82px;
+}
+article h3 + img {
+  margin-top: 81px;
+}
