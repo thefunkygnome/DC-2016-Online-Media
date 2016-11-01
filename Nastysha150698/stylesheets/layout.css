@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-width: 768px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Sans', sans-serif;
+  /*background-image: url(dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;*/
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
