@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Дом Флейты</title>
+    <script type="text/javascript">
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+      showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+      }
+    </script>
+  </head>
+  <body>
+    <h1 style="margin-left:440px;">Дом Флейты</h1>
+    <img class="mySlides" src="images/fleyta.jpg" style="display: block;">
+    <img class="mySlides" src="images/fleyta2.jpg" style="display: none;">
+    <a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
+    <a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+    <p>Одним из самых необычных и узнаваемых зданий Зеленограда является белоснежный корпус № 360 — так называемый «Дом-флейта», построенный в 1969 году. Дом получил своё название благодаря ритмичным выступам лестничных клеток, которые напоминают клапаны флейты. Авторами идеи были архитекторы Феликс Новиков, Игорь Покровский и Григорий Саевич. Длина девятиэтажного восьмиподъездного панельного дома — 516 метров, и долгое время она была рекордной среди московских зданий. Интересны и другие идеи авторов. Например, в межквартирные остеклённые галереи архитекторы вывели непрозрачные окна кухонь и коридоров для лучшего освещения. А некоторые квартиры были сделаны двухэтажными — в духе домов-коммун 1920-х годов. Здание приподняли на опоры для того, чтобы обеспечить беспрепятственный проход горожан, но некоторые пространства заполнили небольшими вставками с общественно-бытовыми функциями.</p>
+  </body>
+</html>
