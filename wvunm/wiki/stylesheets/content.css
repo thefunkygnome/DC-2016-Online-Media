@@ -15,9 +15,9 @@ article h3 {
 }
 
 article h1 {
-    margin-top: 16px;
-    font-size: 40px;
-    line-height: 46px;
+  margin-top: 16px;
+  font-size: 40px;
+  line-height: 46px;
 }
 
 article h1 + p {
