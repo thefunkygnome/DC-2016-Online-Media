@@ -1,0 +1,47 @@
+.sitebar {
+position: fixed;
+top: 40px;
+left: 20px;
+width: 300px;
+opacity: .1;
+transition: all .1s ease-out;
+z-index: 1;
+}
+
+.sitebar:hover {
+opacity: 1;
+}
+
+.sitebar > ul{
+position: absolute;
+padding: 15px 30px;
+
+}
+
+.sitebar li {
+margin: 12px 0;
+font-size: 14px;
+line-height: 15px;
+color: rgba(0, 0, 0, 0.8);
+}
+
+.sitebar li:hover {
+opacity: 1;
+}
+
+.sitebar > ul > li:first-child {
+margin-top: 10px;
+font-weight: bold;
+}
+
+.sitebar > ul > li > ul {
+padding-left: 10px;
+}
+
+.sitebar > ul > li > ul li {
+color: rgba(0, 0, 0, 0.4);
+}
+
+.sitebar > ul > li > ul li:hover {
+color: rgba(0, 0, 0, 0.6);
+}
