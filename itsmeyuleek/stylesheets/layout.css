@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+ body {
+  min-width: 768px;
+  font-family: 'PT Sans',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background-image: url(../images/dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  letter-spacing: -0.5px;*/
+/*}
+
+  h1,
+  h2,
+  h3,
+  h1 + p {
+  letter-spacing: 0.5px;
+}
+
+p {
+  letter-spacing: -0.05px;*/
+}
+
+/*конец хака*/
+
+a {
+text-decoration: none;
+color: inherit;
+}

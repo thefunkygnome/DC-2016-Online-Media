@@ -1,0 +1,78 @@
+.gallery {
+  overflow: hidden;
+  position: relative;
+}
+
+.galleryRail {
+  display: flex;
+  transition: all .3s ease;
+}
+
+.galleryRail img {
+  display: block;
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.galleryRail figure {
+  width: 100vw;
+  min-width: 100vw;
+}
+
+.galleryNav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: calc(100% - 51px);
+}
+
+.gallery figcaption {
+  height: 51px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0,0,0,.4);
+}
+
+
+.galleryNav div {
+  position: relative;
+  margin: 30px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.galleryNav .disabled {
+  opacity: 0;
+  cursor: default;
+}
+
+
+.galleryNav div::before,
+.galleryNav div::after {
+  content: "";
+  position: absolute;
+  background: black;
+}
+
+.galleryNav div::before {
+  width: 5px;
+  height: 20px;
+}
+
+.galleryNav div::after {
+  width: 20px;
+  height: 5px;
+}
+
+#prev {
+  transform: rotate(-45deg);
+}
+
+#next {
+  transform: rotate(135deg);
+}
