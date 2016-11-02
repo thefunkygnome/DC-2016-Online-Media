@@ -1,0 +1,15 @@
+.menubar {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/wikimedium_logo.svg);
+}

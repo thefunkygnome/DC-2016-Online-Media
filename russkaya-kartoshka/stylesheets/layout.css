@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 768px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
